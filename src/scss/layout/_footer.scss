@@ -1,0 +1,23 @@
+.footer{
+    padding: 3rem;
+    background-color: $grisOscuro;
+    text-align: center;
+    margin-bottom: 0rem ;
+    //footer siempre de ultimas
+    // position: fixed;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+
+    .contendor-footer{
+        padding-top: 2rem;
+    }
+    .navegacion{
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    a.copyright{
+        color: $blanco;
+    }
+}

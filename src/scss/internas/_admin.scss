@@ -1,0 +1,74 @@
+.alerta{
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+
+    &.error{
+        background-color: rgb(158, 60, 60);
+    }
+
+    &.exitosa{
+        background-color: $verde;
+    }
+
+
+}
+
+.propiedades{
+    border-spacing:0;
+    thead{
+        background-color: $verde;
+
+        th{
+            color: $blanco;
+
+        }
+     
+    }
+    @include tablet{
+
+        margin-top: 4rem;
+        width: auto;
+        height: 100%;
+        border-spacing:0;
+        text-align: center;
+
+        thead{
+            background-color: $verde;
+
+            th{
+                color: $blanco;
+                
+                padding: 2rem;
+                padding-left: 5rem; /* Ajusta el espacio a la izquierda */
+                padding-right: 5rem; /* Ajusta el espacio a la derecha */
+            
+            }
+            td{
+            margin-bottom: 40rem;
+            }
+        }
+        .imagen-tabla{
+            width: 15rem;
+            margin: .5rem;
+        }
+        a{
+            padding: .5rem;
+        }
+    }
+    @include desktop{
+        width: 100%;
+        .imagen-tabla{
+            width: 25rem;
+            margin: .5rem;
+        }
+      
+    }
+    a{
+        padding: .5rem;
+    }
+}
+
